@@ -34,6 +34,7 @@ function App() {
         { id: 3, texto: 'Ir al gimnasio' },
     ]);
 
+
     const marcarCompleta = (taskId) => {
         console.log(`Marcar como completa: ${taskId}`); //Solamente imprime mensaje en la consola
     };
@@ -82,3 +83,6 @@ function App() {
     );
 }
 export default App;
+
+
+
