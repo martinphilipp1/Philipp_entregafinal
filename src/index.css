@@ -1,0 +1,80 @@
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+.titulo {
+  text-align: center;
+  color: #2F2F2F;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  margin: 0 auto;
+}
+
+.adentro {
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lista-tareas {
+  padding-top: 30px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.container-botones {
+  display: flex;
+  gap: 10px;
+}
+
+.boton-completada {
+  background-color: #9EA93F;
+  border: 1px solid #2F2F2F;
+  border-radius: 5px;
+}
+
+.boton-eliminar {
+  background-color: #CE5850;
+  border: 1px solid #2F2F2F;
+  border-radius: 5px;
+}
+
+.boton {
+  background-color: #E0B7B7;
+  color: #2F2F2F;
+  font-weight: bold;
+  border: 1px solid #2F2F2F;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 130px;
+  height: 25px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 170px;
+  height: 25px;
+  margin: 5px;
+}
+
+.tarea {
+  margin: 10px;
+}
+
+.nuevaTarea {
+  margin: 10px;
+}
