@@ -24,7 +24,7 @@ const NameForm = ({ onNameSubmit, onNameDelete }) => {
     if (nombre.trim() !== '') {
       onNameSubmit(nombre);
     } else {
-      alert('Por favor ingrese tu nombre');
+      alert('Por favor ingrese su nombre');
     }
   };
 

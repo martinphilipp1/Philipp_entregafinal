@@ -7,10 +7,16 @@ function TaskItem({tarea, marcarCompleta, eliminar}) { //Recibe estas propiedade
     const handleMarcarCompleta = () => {   //Función que es llamada al hacer click en botón para marcar o desmarcar como completa
         setCompleta(!completa);      //Usamos setCompleta para cambiar el valor de completa a su opuesto
         marcarCompleta(tarea.id);    //Llamamos a marcarCompleta pasando el id de la tarea
-    };
+        if (completa) {
+            alert("Habrá que volver a intentarlo...");
+          } else {
+            alert("¡Una menos!");
+          }
+        };
 
     const handleEliminar = () => {      //Se llama a esta función al clickear boton 'eliminar'
         eliminar(tarea.id);     //Llamamos a eliminar pasando el id de la tarea
+        alert("Tarea '" + tarea.texto + "' eliminada")
     };
 
 
